@@ -10,7 +10,7 @@ from io import BytesIO
 import io
 from PIL import Image
 
-st.title ("PR - VS")
+st.title ("PR item to VS item")
 
 # Upload CSV file using Streamlit's sidebar
 Tugas_2 = st.sidebar.file_uploader('Upload a CSV file', type=['csv'])
